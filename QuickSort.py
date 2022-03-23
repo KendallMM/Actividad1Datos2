@@ -26,7 +26,7 @@ def quick_sort(lista):
 
     return quick_sort(menores) + [pivote2+str(pivote)] + quick_sort(mayores)
 
-
+#Permite ordenar el archivo de records
 def quick_sort_record(lista):
     lista2 = " ".join(lista)
     lista2 = lista2.split(":")
